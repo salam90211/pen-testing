@@ -66,3 +66,9 @@ history
    
    2
    22  wpscan --url http://192.168.1.205/S3cr3t --plugins-detection aggressive
+
+
+
+john ~/PrivescCheck/hash.txt --wordlist=/usr/share/wordlists/rockyou.txt --format=PKZIP
+
+john --show --format=PKZIP ~/PrivescCheck/hash.txt
