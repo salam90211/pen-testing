@@ -82,3 +82,5 @@ crackmapexec smb 192.168.1.164 -u Jenny -p rockyou
 crackmapexec smb 192.168.1.164 -u test -p '!!!sagitario)))'
 
 crackmapexec smb 192.168.1.164 -u administrator -p password
+
+wpscan --url http://derpnstink.local/weblog/ --enumerate u
