@@ -96,3 +96,4 @@ hostname=127.0.0.1 & copy C:\Users\nebula\Desktop\forensics_artefacts.zip C:\xam
 
 SUPERultimatePASSWORDyouCANTget
 SUPERultimatePASSWORDyouCANTgetdH34%(
+ssh bulldogadmin@192.168.1.155 -p 23
